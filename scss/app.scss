@@ -1,5 +1,5 @@
 $background: #F3F6FF;
-$bleuElectrique: #0072FF;
+$bleuElectrique: #0077FF;
 $grisbordure:#D9D5D4;
 $typecolor: #8D9FB8;
 $colorDark: #263D5C;
@@ -86,9 +86,11 @@ main{
 
 @keyframes fadeIn{
     100%{
-        opacity: 1;}
-        transform: none;
+        opacity: 1;
     }
+    transform: none;
+}
+
 .page{
     margin:auto;
     background:white;
@@ -129,6 +131,7 @@ main{
 
 .typeAround{
     padding-top:30px;
+    padding-bottom:30px;
     margin:auto;
     width:70%;
 }
@@ -136,9 +139,9 @@ main{
     border: 2px solid $typecolor;
 }
 .file-marker > div {
-    padding: 0 3px;
-    height: 200px;
-    margin-top: -0.8em;
+    padding: 0 10px;
+    min-height: 200px;
+    margin-top: -1.3em;
     
 }
 .box-title {
@@ -146,11 +149,64 @@ main{
     display: inline-block;
     padding: 0 10px;
     margin-left: 3em;
-    font-size:1.4em;
+    font-size:1.8em;
     color: $colorDark;
 }
 .box-contents .audit-trail{
     display:flex;
-    padding:15px;
+    padding:30px;
     color: $typecolor;
+    font-size:1.4em;
+}
+.listeInfo>li{
+    padding:10px;
+    width:100%;
+}
+strong{
+    font-weight:bold;
+}
+.title2{
+    font-size:1.1em;
+    color:$colorDark;
+    padding-bottom:15px;
+}
+.title3{
+    color:$bleuElectrique;
+}
+label{
+    background:$bleuElectrique;
+    color:white;
+    padding: 3px 20px;
+    border-radius: 100px;
+    margin-left:5px;
+}
+.lineInput{
+    width:100%;
+    padding-top:10px;
+}
+.lineInput input{
+    margin-right:20px;
+    border-radius:100px;
+    border:1px solid $colorDark;
+    background:white;
+    height:30px;
+    padding:15px;
+}
+.titlePad{
+    padding-top:30px;
+    color:$colorDark;
+    font-weight:lighter;
+    font-size:1.1em;
+}
+.lineButton button{
+    background:$bleuElectrique;
+    border:none;
+    border-radius:100px;
+    padding:0 20px;
+    margin-top:10px;
+    height:45px;
+    color:white;
+    margin-right:30px;
+    font-size:0.8em;
+    font-weight:bold;
 }

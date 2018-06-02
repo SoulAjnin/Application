@@ -20,9 +20,38 @@
 									</div>
 									<div class="box-contents">
 											<div class="audit-trail">
-												Salut c'est cool 
+												<div class="line">
+													<ul class="listeInfo">
+														<li>Chef de quartier: Julien Bachelet</li>
+														<li>Date: 02/06/2018</li>
+														<li>Quart: 6h - 18h</li>
+														<li>Equipe: Los pepitos de los CanaDios </li>
+														<li>Modèle Machine: 4590E / ASY-TNR-CART-470D</li>
+													</ul> 
+												</div>
 											</div>
 
+									</div>
+							</div>
+						</section>
+					</aside>
+					<aside class="typeAround">
+						<section class="file-marker">
+							<div>
+									<div class="box-title">
+											Informations
+									</div>
+									<div class="box-contents">
+											<div class="audit-trail">
+												<div class="line">
+													<h2 class="title2"><strong>Efficacité</strong></h2>
+													<h3 class="title3">Nombre d'opérateurs :<label for="operateur">2</label></h3>
+													<div class="lineInput"><input type="text" placeholder="Saisir un nom..."><input class="input2" type="number" placeholder="Saisir l'efficacité %"></div>
+													<div class="lineInput"><input type="text" placeholder="Saisir un nom..."><input class="input2" type="number" placeholder="Saisir l'efficacité %"></div>
+													<h3 class="titlePad">Contrôle qualité</h3>
+													<div class="lineButton"><button>Consignes	</button><button>Nouveau Contrôle Qualité</button></div>
+												</div>
+											</div>
 									</div>
 							</div>
 						</section>
