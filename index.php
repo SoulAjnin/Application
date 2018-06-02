@@ -5,14 +5,14 @@
  				<div class="main-content">
 					 <div class="ligne">
 						 <h1 class="titreLigne">Renseigner la ligne de production</h1>
-							<select class="dropdown">
+							<select id="select" class="dropdown">
 								<option class="disabled-option" value="" disabled selected hidden>Choisir...</option>
 								<option value="Ligne B">Ligne B</option>
 								<option value="Ligne C">Ligne C</option>
 							</select>
 					</div>
 				</div>
-				<div class="enable"></div>
+				<div class="enable">
 					<aside class="typeAround">
 						<section class="file-marker">
 							<div>
@@ -106,6 +106,7 @@
 						</section>
 						<div class="cheat">
 						<button class="Send"> Envoyer le Suivi !</button>
+						</div>
 						</div>
 					</aside>
 				</div>
