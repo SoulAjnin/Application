@@ -46,9 +46,6 @@ main {
   border-bottom: solid 3px rgba(255, 255, 255, 0);
   letter-spacing: 1px; }
 
-.tab-link:last-child {
-  padding-right: 0; }
-
 .tab-link:hover {
   color: #999;
   border-color: #999; }
