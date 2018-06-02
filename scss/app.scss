@@ -1,6 +1,8 @@
-$background: #EDEAFF;
-$bleuElectrique: #1790D2;
+$background: #F3F6FF;
+$bleuElectrique: #0072FF;
 $grisbordure:#D9D5D4;
+$typecolor: #8D9FB8;
+$colorDark: #263D5C;
 
 html,body{
      width: 100%;
@@ -66,7 +68,6 @@ main{
  }
     .tab-content{
         display: none;
-        text-align: center;
         color: #888;
         font-weight: 300;
         font-size: 15px;
@@ -88,3 +89,68 @@ main{
         opacity: 1;}
         transform: none;
     }
+.page{
+    margin:auto;
+    background:white;
+    width:80%;
+    min-height:800px;
+    margin-top:50px;
+    border-radius:8px;
+    border: 1px solid $grisbordure;
+}
+.main-content{
+    display:flex;
+    padding:30px 20%;
+    justify-content: space-between;
+}
+.page .tab-content .titreLigne{
+    color:$colorDark;
+    font-size:1.6em;    
+}
+.ligne{
+    display:flex;
+}
+.ligne h1{
+    padding-right:50px;
+    display:flex; 
+    align-items:center;
+}
+.dropdown{
+    color:$typecolor;
+    width:180px;
+    height:40px;
+    padding:5px;
+    border-radius:100px;
+    font-size:1em;
+}
+.disabled-option{
+    color:$typecolor;
+}
+
+.typeAround{
+    padding-top:30px;
+    margin:auto;
+    width:70%;
+}
+.typeAround section {
+    border: 2px solid $typecolor;
+}
+.file-marker > div {
+    padding: 0 3px;
+    height: 200px;
+    margin-top: -0.8em;
+    
+}
+.box-title {
+    background: white none repeat scroll 0 0;
+    display: inline-block;
+    padding: 0 10px;
+    margin-left: 3em;
+    font-size:1.4em;
+    color: $colorDark;
+}
+.box-contents .audit-trail{
+    display:flex;
+    padding:15px;
+    color: $typecolor;;
+}
