@@ -17,7 +17,7 @@
 						<section class="file-marker">
 							<div>
 									<div class="box-title">
-											Informations
+											Informationsr
 									</div>
 									<div class="box-contents">
 											<div class="audit-trail">
